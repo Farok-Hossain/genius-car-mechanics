@@ -1,11 +1,11 @@
 console.log(process.env);
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-};
+    apiKey: "AIzaSyBnj3yQaW4OEfQjgpJ5C6JjD00pQD56NqQ",
+    authDomain: "genius-car-mechanics-98639.firebaseapp.com",
+    projectId: "genius-car-mechanics-98639",
+    storageBucket: "genius-car-mechanics-98639.appspot.com",
+    messagingSenderId: "1009541686841",
+    appId: "1:1009541686841:web:54b907ec4a7aef6ca50fe8"
+  };
 
 export default firebaseConfig;
